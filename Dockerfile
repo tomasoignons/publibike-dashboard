@@ -12,8 +12,11 @@ RUN npm install
 # Copy source code
 COPY . .
 
+# Build the application
+RUN npm run build
+
 # Expose port 5173 (Vite default port)
 EXPOSE 5173
 
-# Start the development server
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+# Start the application
+CMD ["npm", "run", "preview"]
