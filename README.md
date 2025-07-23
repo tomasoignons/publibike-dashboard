@@ -1,6 +1,7 @@
 # publibike-dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+This project the code of the publibike dashboard, to have an idea of when to leave to get a bike.
+The data is scrapped thanks to another script, in private, and get all stations availability every 5 minutes.
 
 ## Recommended IDE Setup
 
